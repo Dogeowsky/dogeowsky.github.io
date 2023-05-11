@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gunplay3D';
+    src: url(fonty/stencil.ttf);
+}
+
+@font-face {
+    font-family: 'GunplayRG';
+    src: url(fonty/gunplayrg.ttf);
+}
+
+body{
+    background: url("obrazki/bg.png");
+    color: white;
+    margin: 0 auto;
+}
+
+header{
+    position:relative;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 100px;
+    background: #84844F;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+header h1{
+    text-align: left;
+    font-family: 'GunplayRG';
+    color: rgba(100, 100, 60);
+    font-size: 36px;
+}
+
+nav li{
+    display: inline;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(100, 100, 60);
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+    color: rgba(100, 100, 60);
+}
+
+main{
+    height: 800px;
+    background: rgba(100, 100, 60, 0.75);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+#spis{
+    border: 1px solid white;
+    width: 15%;
+    background:#84844F;
+    float: left;
+
+    margin: 15px;
+    margin-bottom: 60px;
+
+    padding: 20px;
+}
+
+#spis b{
+    font-size: 120%;
+}
+
+#spis li{
+    list-style: none;
+}
+
+#spis a{
+    text-decoration: none;
+    color: white;   
+}
+
+#insertion{
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#insertion h2{
+    margin-bottom: 50px;
+    padding-top: 25px;
+}
+
+#insertion img{
+    width: 250px;
+    padding: 75px;
+}
+
+section{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#img1wś{
+    float: right;
+    border: 1px solid white;
+    text-align: center;
+    width: 300px;
+    height: min-content;
+    padding: 5px;
+    font-size: 80%;
+    background:#84844F;
+}
+
+#img2wś{
+    float: left;
+    border: 1px solid white;
+    text-align: center;
+    width: 300px;
+    height: min-content;
+    padding: 5px;
+    font-size: 80%;
+    background:#84844F;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+#img2wś img{
+    height: 250px;
+    width: 300px;
+}
+
+#imgzw{
+    float: right;
+    border: 1px solid white;
+    text-align: center;
+    width: 300px;
+    height: min-content;
+    padding: 5px;
+    font-size: 80%;
+    background:#84844F;
+    margin-left: 15px;
+}
+
+#imgzw img{
+    height: 200px;
+    width: 300px;
+
+}
+
+#kontener{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#m{
+    height: 240px;
+    padding: 15px;
+}
+
+#m4{
+    height: 240px;
+    padding: 15px;
+}
+
+#t34{
+    height: 240px;
+    padding: 15px;
+}
+
+#m1{
+    height: 240px;
+    padding: 15px;
+}
+
+#m1{
+    height: 240px;
+    padding: 15px;
+}
+
+#t14{
+    height: 240px;
+    padding: 15px;
+}
+
+
+#img{
+    float: left;
+    border: 1px solid white;
+    padding: 5px;
+    background:#84844F;
+    margin-right: 20px;
+    font-size: 80%;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+}
+
+#img img{
+    height: 180px;
+    width: 240px;
+}
+
+#zdjecia{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#zdjecia img{
+    height: 405px;
+    width: 630px;
+}
+
+#t72amt{
+    float: left;
+    border: 1px solid white;
+    padding: 5px;
+    background:#84844F;
+    font-size: 120%;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+    margin-bottom: 20px;
+}
+
+#pt91m2{
+    float: right;
+    border: 1px solid white;
+    padding: 5px;
+    background:#84844F;;
+    font-size: 120%;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+    margin-bottom: 20px;
+}
+
+#t80bwm{
+    float: right;
+    border: 1px solid white;
+    padding: 5px;
+    background:#84844F;
+    font-size: 120%;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+}
+
+#t80bwm img{
+    height: 352px;
+}
+
+#t90m img{
+    height: 352px;
+}
+
+#t90m{
+    float: left;
+    border: 1px solid white;
+    padding: 5px;
+    background:#84844F;
+    font-size: 120%;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+}
+
+#wideo{
+    width: 840px;
+    height: 720px;
+    float: left;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 20px;
+    background:#84844F;
+    font-size: 140%;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 27%;
+}
+
+footer{
+    height: 15%;
+    background: #84844F;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
