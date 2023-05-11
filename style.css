@@ -93,6 +93,10 @@ main{
     color: white;   
 }
 
+#spis a:hover{
+    text-decoration: underline;
+}
+
 #insertion{
     padding: 10px;
     text-align: center;
@@ -287,6 +291,7 @@ section{
     text-align: center;
     height: min-content;
     width: min-content;
+    margin-bottom: 15px;
 }
 
 #wideo{
